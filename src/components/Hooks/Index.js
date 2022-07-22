@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import IntervalHookCounter from './useEffect/IntervalHookCounter'
+import ContextTests from './useContext/Index'
 
 class ReactHooks extends Component {
   render() {
     return (
       <>
-        <IntervalHookCounter />
+        <ContextTests />
       </>
     )
   }

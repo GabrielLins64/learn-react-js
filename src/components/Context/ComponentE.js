@@ -16,7 +16,7 @@ export class ComponentE extends Component {
   }
 }
 
-// For using userContext in this component E (not mandatory for using in F)
+// Using userContext on this component E is not mandatory for forwarding to F
 // ComponentE.contextType = UserContext
 
 export default ComponentE
