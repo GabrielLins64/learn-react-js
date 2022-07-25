@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import ContextTests from './useContext/Index'
+import ReducerTests from './useReducer/Index'
 
 class ReactHooks extends Component {
   render() {
     return (
       <>
-        <ContextTests />
+        <ReducerTests />
       </>
     )
   }
