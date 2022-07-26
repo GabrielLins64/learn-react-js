@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import UseRefTests from './useRef/Index'
+import CustomHooks from './CustomHooks/Index'
 
 class ReactHooks extends Component {
   render() {
     return (
       <>
-        <UseRefTests />
+        <CustomHooks />
       </>
     )
   }
