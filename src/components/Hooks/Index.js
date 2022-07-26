@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import UseCallbackTests from './useCallback/Index'
+import UseMemoTests from './useMemo/Index'
 
 class ReactHooks extends Component {
   render() {
     return (
       <>
-        <UseCallbackTests />
+        <UseMemoTests />
       </>
     )
   }
